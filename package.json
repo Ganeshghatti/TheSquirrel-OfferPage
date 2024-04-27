@@ -24,7 +24,6 @@
     "react-router-dom": "^6.20.0",
     "react-spring": "^9.7.3",
     "react-toastify": "^10.0.5",
-    "react-tsparticles": "^2.12.2",
     "sass": "^1.75.0",
     "scss": "^0.2.4",
     "tsparticles-engine": "^2.12.0",
