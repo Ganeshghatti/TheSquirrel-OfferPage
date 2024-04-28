@@ -4,6 +4,7 @@ import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import validator from "validator";
 
 export default function Hero() {
   const scriptURL =
@@ -20,8 +21,8 @@ export default function Hero() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    const isFormValid = formData.name && formData.email;
-
+    const isFormValid = formData.name && validator.isEmail(formData.email);
+    
     if (!isFormValid) {
       toast.error("Please enter all required data", {
         toastStyle: {
