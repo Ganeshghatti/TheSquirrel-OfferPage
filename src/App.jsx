@@ -59,7 +59,7 @@ export default function App() {
             },
             particles: {
               number: {
-                value: 160,
+                value: 10,
                 density: {
                   enable: false,
                 },

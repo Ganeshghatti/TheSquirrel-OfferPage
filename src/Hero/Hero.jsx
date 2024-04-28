@@ -67,7 +67,7 @@ export default function Hero() {
       className="flex flex-col items-center justify-center h-screen w-screen"
     >
       <img src="/herologo.png" alt="" className="logo" />
-      <h1 className="title">Your Fast, Smart, & Revolutionary Agency.</h1>
+      <h1 className="title">Your Fast, Smart, & Revolutionary Agency</h1>
       <p className="description">
         Build a Brand, Amplify your Reach.
         <br /> We're here to create personalized solutions for your businesses.
