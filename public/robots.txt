@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thesquirrel.site/sitemap.xml
+
+# Disallow: /private/
+# Disallow: /admin/
